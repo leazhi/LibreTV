@@ -25,21 +25,46 @@ const API_SITES = {
     maotai: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '茅台资源',
-        adult: true
+        adult: false
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
-        adult: true
+        adult: false
     },
     dianyingtiantang: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂',
-        adult: true
+        adult: false
+    },
+    yingshigongchang: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '影视工厂',
+        adult: false
+    },
+    wujin: {
+        api: 'https://wjzyapi.com/api.php/provide/vod',
+        name: '无尽资源',
+        adult: false
+    },
+    liangzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源',
+        adult: false
     },
     xingba: {
         api: 'https://xingba222.com/api.php/provide/vod',
         name: '杏吧资源',
+        adult: true
+    },
+    danaizi: {
+        api: 'https://apidanaizi.com/api.php/provide/vod',
+        name: '大奶子资源',
+        adult: true
+    },
+    91: {
+        api: 'https://91jpzyw.com/api.php/provide/vod',
+        name: '91精品',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
