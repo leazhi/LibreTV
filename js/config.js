@@ -22,9 +22,24 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    maotai: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源',
+        adult: true
+    },
+    jisu: {
+        api: 'https://jszyapi.com/api.php/provide/vod',
+        name: '极速资源',
+        adult: true
+    },
+    dianyingtiantang: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂',
+        adult: true
+    },
+    xingba: {
+        api: 'https://xingba222.com/api.php/provide/vod',
+        name: '杏吧资源',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
