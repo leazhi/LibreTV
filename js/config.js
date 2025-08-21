@@ -66,6 +66,11 @@ const API_SITES = {
         api: 'https://91jpzyw.com/api.php/provide/vod',
         name: '91精品',
         adult: true
+    },
+    huangsecangku: {
+        api: 'https://hsckzy888.com/api.php/provide/vod',
+        name: '黄色仓库',
+        adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
